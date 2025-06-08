@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Exec=/usr/bin/seergdb
+Name=SeerGDB
+Comment=GUI GDB
