@@ -2,3 +2,7 @@ seer
 output/*
 .vscode
 seergdb*
+openocd/
+libjaylink/
+openocd
+jimctl

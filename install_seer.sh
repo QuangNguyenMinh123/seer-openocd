@@ -6,7 +6,8 @@ TOP_DIR=${PWD}
 sudo rm -rf output/*
 sudo rm -f /usr/bin/seergdb
 git clone https://github.com/epasveer/seer.git
-sudo apt install -y debhelper dh-exec qt6-base-dev libqt6charts*-dev libqt6svg*-dev
+sudo apt install -y debhelper dh-exec qt6-base-dev libqt6charts*-dev libqt6svg*-dev qt6-qmake
+
 cd ${TOP_DIR}/seer
 git checkout tags/v${SEER_VER}
 cd ${TOP_DIR}/seer/src
